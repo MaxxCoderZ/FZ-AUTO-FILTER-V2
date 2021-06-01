@@ -77,7 +77,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 MiB] " or "[0 GiB] ") else file_size
             
                             # add emoji down below inside " " if you want..
-            button_text = f"{'📁'}{file_size}{file_name}" if file_size else file_name
+            button_text = f"{'📥'}{file_size}{file_name}" if file_size else file_name
             
 
             if file_type == "video":
@@ -124,24 +124,11 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_message(
         chat_id = update.chat.id,
-        text=f"""🥺 𝐒𝐎𝐑𝐑𝐘, 𝘾𝙤𝙪𝙡𝙙𝙣'𝙩  𝙛𝙞𝙣𝙙 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚.....!
+        text=f"""
+Check your spelling from google and try again!
+If spelling is correct, Then that movie is not available
 
-1)<b>Try Again This Format 👇</b>
-   
-⛔ Movie Name year , Joji 2021
-
-2) 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠(google or imdb)
-
-3) <b>Find Movie Year @imdbot</b>
-
-4) 𝐌𝐨𝐯𝐢𝐞 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐫𝐞𝐥𝐞𝐚𝐬𝐞𝐝 🤷‍♂
-
-5) 𝐃𝐨𝐧'𝐭 𝐚𝐬𝐤 𝐒𝐞𝐫𝐢𝐞𝐬, 
-   𝐚𝐬𝐤 for <b>@series_xzone</b>
-
-ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛʜɪꜱ ʀᴜʟᴇꜱ ɪꜱ ᴄᴏʀʀᴇᴄᴛ ꜱᴛɪʟʟ ᴡᴀɪᴛ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏᴏɴ......!
-
-<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>""",             
+Request movie name only, no need of size language etc!!""",             
         reply_to_message_id=update.message_id
         )
         await asyncio.sleep(30) # in seconds
@@ -224,8 +211,10 @@ async def auto_filter(bot, update):
         try:
             await bot.send_photo(
                 chat_id = update.chat.id,
-                photo="https://telegra.ph/Film-Zone-05-19",
-                caption=f"<b>👇 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy {query}👇\n\nꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ</b>\n<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
+                photo="https://telegra.ph/file/54b58aa3e56814a53c46d.jpg",
+                caption=f"<b>Click required button and press start to get your file.
+
+Click NEXT to see more results!!</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
