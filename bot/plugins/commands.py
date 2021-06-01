@@ -12,7 +12,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    update_channel = "@Film_zone_fz"
+    update_channel = "@Mv_LinkzZ"
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
@@ -22,9 +22,9 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="𝐘𝐨𝐮 𝐦𝐮𝐬𝐭 𝐣𝐨𝐢𝐧 𝐨𝐮𝐫 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐨𝐭𝐡𝐞𝐫𝐰𝐢𝐬𝐞 𝐓𝐡𝐢𝐬 𝐛𝐨𝐚𝐭 𝐢𝐬 𝐮𝐧𝐮𝐬𝐚𝐛𝐥𝐞\n<b>ꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ\n\n<a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
+                text="𝐘𝐨𝐮 𝐦𝐮𝐬𝐭 𝐣𝐨𝐢𝐧 𝐨𝐮𝐫 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 𝐨𝐭𝐡𝐞𝐫𝐰𝐢𝐬𝐞 𝐓𝐡𝐢𝐬 𝐛𝐨𝐚𝐭 𝐢𝐬 𝐮𝐧𝐮𝐬𝐚𝐛𝐥𝐞\n<b>ꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ\n\n<a href='https://t.me/Mv_LinkZZ'>©Mallu Villa</a></b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/film_zone_fz")]
+                    [ InlineKeyboardButton(text=" Join Channel ", url=f"https://t.me/Mv_LinkzZ")]
               ])
             )
             return
@@ -44,13 +44,10 @@ async def start(bot, update):
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + """</code>\n━━━━━━━━━━━━━━━━━━━━
 <b>💡 ɢʀᴏᴜᴘ
-@Film_zone_group
-  
-💡 ɢʀᴏᴜᴘ
-@Series_xzone
+@Mallu_villa
 
 🎯  ᴄʜᴀɴɴᴇʟs
-@Film_zone_channels</b>""")
+@Mv_LinkzZ</b>""")
         
         if file_type == "document":
         
@@ -65,11 +62,11 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'SHARE', url="https://t.me/share/url?url=https://t.me/film_zone_group"
+                                    'SHARE', url="https://t.me/share/url?url=https://t.me/Mallu_villa"
                                 ),
                                 InlineKeyboardButton
                                 (   
-                                    '🔰SERIES GROUP', url="https://t.me/series_xzone"
+                                    'GROUP', url="https://t.me/Mallu_villa"
                                 )      
                                  
                         ]
@@ -93,7 +90,7 @@ async def start(bot, update):
                                 ),
                                 InlineKeyboardButton
                                 (   
-                                    '🔰SERIES GROUP', url="https://t.me/series_xzone"
+                                    'GROUP', url="https://t.me/Mallu_villa"
                                 )      
                         ]
                     ]
@@ -112,11 +109,11 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/joinchat/YS-WlsUC9nFiOWM0"
+                                    'Dev', url="https://t.me/MaxxCoderz"
                                 ),
                             InlineKeyboardButton
                                 (   
-                                    '🔰SERIES GROUP🔰', url="https://t.me/series_xzone"
+                                    'Support', url="https://t.me/CoderzHEX"
                                 )      
                         ]
                     ]
@@ -129,8 +126,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚠️JOIN', url='https://t.me/film_zone_fz'),
-        InlineKeyboardButton('🕵‍♂CREATOR', url='https://t.me/diago_x')
+        InlineKeyboardButton('⚠️JOIN', url='https://t.me/Mv_LinkzZ'),
+        InlineKeyboardButton('🕵‍♂CREATOR', url='https://t.me/MaxxCoderz')
     ],[
         InlineKeyboardButton('💡HELP', callback_data="help"),
         InlineKeyboardButton('🔐ClOSE', callback_data="close")
