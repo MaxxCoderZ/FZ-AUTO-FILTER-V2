@@ -6,7 +6,7 @@ class Translation(object):
     
       
     START_TEXT = """<b>Hey {}</b>
-ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ sɪᴍᴘʟʏ sᴇᴀʀᴄʜ ғᴏʀ ᴛʜᴇ ғɪʟᴇs ᴍᴀᴅᴇ ғᴏʀ <b><a href="https://t.me/Film_zone_group">Mallu Villa</a></b>
+ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ sɪᴍᴘʟʏ sᴇᴀʀᴄʜ ғᴏʀ ᴛʜᴇ ғɪʟᴇs ᴍᴀᴅᴇ ғᴏʀ <b><a href="https://t.me/Mallu_villa">Mallu Villa</a></b>
 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ɢɪᴠᴇɴ ᴏ̨ᴜᴇʀʏ ᴀɴᴅ ɢɪᴠᴇs ʟɪɴᴋ ᴛᴏ ᴛʜᴏsᴇ ғɪʟᴇs ᴀs ʙᴜᴛᴛᴏɴs
 
 🕵‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ 👉 <b><a href="https://t.me/MaxxCoderz">Màx</a></b>
@@ -51,7 +51,7 @@ class Translation(object):
 
 ○ ғʀᴀᴍᴇᴡᴏʀᴋ  : ᴘʏʀᴏɢʀᴀᴍ
 
-○ ᴄʀᴇᴀᴛᴏʀ     : <a href="https://t.me/Mãxx">Diago</a>
+○ ᴄʀᴇᴀᴛᴏʀ     : <a href="https://t.me/maxxcoderz">Mãxx</a>
 
 ○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href="https://github.com/MaxxCoderz/fz-auto-filter-bot-v2">Click Here</a>
 """
