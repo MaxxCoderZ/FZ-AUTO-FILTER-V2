@@ -211,10 +211,7 @@ Request movie name only, no need of size language etc!!""",
         try:
             await bot.send_photo(
                 chat_id = update.chat.id,
-                photo="https://telegra.ph/file/54b58aa3e56814a53c46d.jpg",
-                caption=f"<b>Click required button and press start to get your file.
-
-Click NEXT to see more results!!</b>",
+                caption=f"<b>Click required button and press start to get your file.Click NEXT to see more results!!</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
