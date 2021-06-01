@@ -142,9 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>Click required button and press start to get your file.
-
-Click NEXT to see more results!!</b>",
+    text=f"<b>Click required button and press start to get your file.Click NEXT to see more results!!</b>",
 
     try:
         await update.message.edit(
