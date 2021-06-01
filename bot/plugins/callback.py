@@ -142,8 +142,8 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>👇 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ Qᴜᴇʀy {query}👇\nᴄʜᴏᴏꜱᴇ ᴀɴʏ ʙᴜᴛᴛᴏɴ\n\nꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ</b>\n<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>"
-        
+    text=f"<b>Click required button and press start to get your file./n/nClick NEXT to see more results!!</b>",
+
     try:
         await update.message.edit(
                 text,
